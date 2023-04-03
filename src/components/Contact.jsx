@@ -9,6 +9,8 @@ function Contact() {
     const [submit, setsubmit] = useState(false);
 
     function submitHandler(e) {
+
+        //preventDefault function helps to stop to rerender after submit
         e.preventDefault();
         setErr([]);
         console.log(err);
